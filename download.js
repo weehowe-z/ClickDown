@@ -8,7 +8,7 @@ function download()
 	    var url = links[i].href;
 	    var name = url.split("/").pop();
 	    var ext = name.split(".").pop();//get last element
-	    if (ext == "pdf") downloadURI(url, name);
+	    if (ext == "aspx") downloadURI(url, name);
 	}
 }
 
@@ -20,5 +20,5 @@ function downloadURI(uri, name)
     link.href = uri;
     link.click();
 }
-
-download();
+alert(document.URL);
+// download();
