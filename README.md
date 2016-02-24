@@ -7,7 +7,7 @@
 # Libraries
 [JSZip](http://stuartk.com/jszip)
 
-[FileSaver.](https://github.com/eligrey/FileSaver.js)
+[FileSaver.js](https://github.com/eligrey/FileSaver.js)
 
 
 # License
