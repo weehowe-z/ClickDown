@@ -1,6 +1,6 @@
 # ClickDown
 
-**A Google Chrome Extension for quicker and easier download, still under development.**
+A **Google Chrome Extension** for quicker and easier download, still under development.
 
 **Current Feature**:
 
