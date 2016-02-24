@@ -1,8 +1,10 @@
 # ClickDown
 
-**Google Chrome Extension**
+**A Google Chrome Extension for quicker and easier download, still under development.**
 
-一键获取当前页面上的所有`pdf`文件,打包成`zip`下载
+**Current Feature**:
+
+- 一键获取当前页面上的所有`pdf`文件,打包成`zip`下载
 
 # Libraries
 [JSZip](http://stuartk.com/jszip)
