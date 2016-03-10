@@ -4,7 +4,7 @@ A **Google Chrome Extension** for quicker and easier download, still under devel
 
 ## Current Feature
 
-- 一键获取当前页面上的所有`pdf`文件,打包成`zip`下载
+- 一键获取当前页面上的所有<del>`pdf`文件</del>指定格式文件,打包成`zip`下载
 
 ## Libraries
 
