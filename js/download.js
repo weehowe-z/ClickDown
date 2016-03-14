@@ -28,7 +28,7 @@ jQuery(function ($) {
     	var blob = zip.generate({type:"blob"});
         saveAs(blob, filename);
     }
-
+    type = prompt("Plz input the required extension name:");
     alert("Begin fetching files, it may cost some time.");
 
     var zip = new JSZip();
@@ -41,7 +41,7 @@ jQuery(function ($) {
 	    var url = links[i].href;
 	   	var filename = url.split("/").pop();
 	    var ext = filename.split(".").pop();//get last element
-	    if (ext == "pdf") deferreds.push(deferredAddZip(url, filename, zip));
+	    if (ext == type) deferreds.push(deferredAddZip(url, filename, zip));
 	}
 
     //until everthing is done trigger the blob download
